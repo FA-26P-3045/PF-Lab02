@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int batch_year = 2026;
+char section = 'B';
+float test_score = 56.61;
+double semester_fee = 268500.00;
+printf("              FAST-NUCES STUDENTS PROFILE CARD                      \n");
+printf("Batch year:\t%d\n", batch_year);
+printf("Section:\t%c\n", section);
+printf("Entry test score:\t%.2f\n", test_score);
+printf("Semester fee:\t PKR %.2lf\n", semester_fee);
+printf("Motto:\t\t\"Small daily steps lead to big success\"\n");
+                 return 0;
+}
