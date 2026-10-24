@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+
+printf("Enter distinct integer for a");
+scanf("%d",&a);
+printf("Enter distinct integer for b");
+scanf("%d",&b);
+printf("Enter distinct integer for c");
+scanf("%d",&c);
+
+if(a>b)
+{
+if(a>c)
+{
+printf("variable a holds largest value");
+}
+else
+{
+printf("variable c holds largest value");
+}}
+else
+{
+if(b>c)
+{
+printf("variable b holds largest value");
+}
+else
+{
+printf("variable c holds largest value");
+}}
+return 0;
+}
+
+
+
+

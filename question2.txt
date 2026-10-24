@@ -1,0 +1,58 @@
+ #include<stdio.h>
+int main()
+{
+int a;
+int b;
+int c;
+    
+printf("enter the value of a");
+scanf("%d",&a);
+printf("Enter the value of b");
+scanf("%d",&b);
+printf("Enter the value of c");
+scanf("%d",&c);
+
+if(a<b+c)
+{
+if(b<a+c)
+{
+if(c<a+b)
+{
+if(a==b)
+{
+if(b==c)
+{
+printf("Equilateral triangle\n");
+} else  
+{
+ printf("Isosceles triangle\n");
+}}
+else
+{
+if(b==c)
+{
+printf("Isosceles triangle\n");
+}
+else
+{
+if(c==a) 
+{
+printf("Isosceles triangle\n");
+}
+else
+{
+printf("Scalene triangle\n");
+}}}}
+else
+{
+printf("Not a valid triangle");
+}}
+else
+{
+printf("Not a valid triangle");
+}}
+else{
+printf("Not a valid triangle");
+}
+return 0;
+}
