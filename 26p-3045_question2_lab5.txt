@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+int pin;
+int attempts = 3;
+do
+{
+printf("Enter PIN: ");
+scanf("%d", &pin);
+
+if (pin == 4321)
+{
+printf("Access granted\n");
+break;
+}
+else 
+{ 
+attempts--;
+ if(attempts > 0) 
+{
+ printf("Wrong PIN %d attempt\n, attempts);
+}
+else 
+{
+printf("Card blocked. please contact your bank\n");
+}}}
+while (attempts > 0);
+return 0;
+}
+

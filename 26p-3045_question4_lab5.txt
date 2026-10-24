@@ -1,0 +1,37 @@
+#include<stdio.h>
+int main()
+{
+int n;
+int marks;
+
+int passed = 0;
+int failed = 0;
+int highest = -1;
+int total_marks = 0;
+
+printf("Number of students: ");
+scanf("%d", &n);
+
+for(int i = 1; i<=n; i++)
+{
+printf("Marks of students %d: ", i);
+scanf("%d", &marks);
+
+total_marks=total_marks+marks;
+if(marks >= 50)
+{
+passed++;
+}
+else {
+failed++;}
+
+if(marks > highest){
+highest = marks;
+}}
+float average = (float)total_marks/n;
+printf("Passed: %d\n", passed);
+printf("Failed: %d\n", failed);
+printf("Highest: %d\n", highest);
+printf("Average: %.2f\n", average);
+return 0;
+}
